@@ -8,6 +8,16 @@
     <artifactId>ingresso</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
+    
+    
+    <developers>
+    	<developer>
+    	
+    	<name>Rafel Andrade</name>
+    	<email>rafa@teste.gmail</email>
+    	
+    	</developer>
+    </developers>
 
 
     <properties>
