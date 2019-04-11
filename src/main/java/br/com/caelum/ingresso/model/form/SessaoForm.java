@@ -19,7 +19,7 @@ public class SessaoForm {
 	@NotNull
 	private Integer salaId;
 
-	@NotNull
+	@NotNull (message = "Escolha um Hoario")
 	@DateTimeFormat(pattern = "HH:mm")
 	private LocalTime horario;
 
