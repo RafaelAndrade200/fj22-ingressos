@@ -19,11 +19,11 @@ public class SessaoForm {
 	@NotNull
 	private Integer salaId;
 
-	@NotNull (message = "Escolha um Hoario")
+	@NotNull (message = "Escolha um Horario da seção")
 	@DateTimeFormat(pattern = "HH:mm")
 	private LocalTime horario;
 
-	@NotNull
+	@NotNull (message = "Escolha um filme na lista")
 	private Integer filmeId;
 
 	public Sessao toSessao(SalaDao salaDao, FilmeDao filmeDao) {
